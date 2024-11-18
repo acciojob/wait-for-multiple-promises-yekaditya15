@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const output = document.getElementById("output");
 
   const loadingRow = document.createElement("tr");
+  loadingRow.id = "loading"; 
   loadingRow.innerHTML = `<td colspan="2" class="text-center">Loading...</td>`;
   output.appendChild(loadingRow);
 
